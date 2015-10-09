@@ -1,14 +1,23 @@
 # NAME
 
-App::CPANfile2OPML - It's new $module
+App::CPANfile2OPML - CPANfile to OPML converter
 
 # SYNOPSIS
 
     use App::CPANfile2OPML;
 
+    my $app = App::CPANfile2OPML->new;
+    print $app->convert_file("cpanfile");
+
 # DESCRIPTION
 
-App::CPANfile2OPML is ...
+App::CPANfile2OPML generates OPML from CPANfile.
+
+# SEE ALSO
+
+[cpanfile2opml](https://metacpan.org/pod/cpanfile2opml)
+
+You can subscribe updates of your depending CPAN modules on your favorite feed reader.
 
 # LICENSE
 

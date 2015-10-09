@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "CPANfile to OPML converter",
    "author" : [
       "This library is free software; you can redistribute it and/or modify"
    ],
@@ -42,6 +42,10 @@
       },
       "runtime" : {
          "requires" : {
+            "File::Path::Expand" : "0",
+            "Module::CPANfile" : "0",
+            "Path::Class" : "0",
+            "XML::Simple" : "0",
             "perl" : "5.008001"
          }
       },
@@ -53,5 +57,8 @@
    },
    "release_status" : "unstable",
    "version" : "0.01",
-   "x_authority" : "cpan:HITODE"
+   "x_authority" : "cpan:HITODE",
+   "x_contributors" : [
+      "hitode909 <hitode909@gmail.com>"
+   ]
 }
