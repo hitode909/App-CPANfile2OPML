@@ -56,6 +56,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hitode909/App-CPANfile2OPML/issues"
+      },
+      "homepage" : "https://github.com/hitode909/App-CPANfile2OPML",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/hitode909/App-CPANfile2OPML.git",
+         "web" : "https://github.com/hitode909/App-CPANfile2OPML"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:HITODE",
    "x_contributors" : [
